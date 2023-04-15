@@ -70,7 +70,7 @@ function DrawMain()
       DrawTile(g, x * TILESIZE, y * TILESIZE, gMap[py * MAP_WIDTH + px]);
     }
   }
-  g.fillStyle = "#ff0000"
+  g.fillStyle = "#0000ff"
   g.fillRect(0, HEIGHT / 2 - 1, WIDTH, 2);
   g.fillRect(WIDTH / 2 - 1, 0, 2, HEIGHT);
 
